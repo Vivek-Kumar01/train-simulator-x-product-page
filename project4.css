@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header {
+    top:0;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(rgb(53, 53, 53), rgb(40, 40, 40));
+    display: flex;
+    position: fixed;
+}
+
+#header-img {
+    height: 100%;
+    width: 20%;
+    overflow: hidden;
+    margin-left: -40px;
+}
+
+#nav-bar {
+    margin-left: 600px;
+    width: 650px;
+    display: flex;
+}
+
+#nav-bar ul {
+    align-self: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#nav-bar ul li {
+    align-self: center;
+    margin: 0 60px;
+    font-size: 20px;;
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+    padding-top: 90px;
+}
+
+.center {
+    margin: 10px auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#email {
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+    outline: none;
+    height: 10px;
+    display: block;
+}
+
+#email:focus {
+    border-color: #333333;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #333;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: #555;
+    color: #eee;
+}
+
+.slogan {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+#Features {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#Features ul {
+    list-style: none;
+    font-size: 20px;
+    text-align: left;
+}
+
+#Features ul li {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.track {
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    background-image: repeating-linear-gradient(to right, white, white 6%, black 6%, black 12%);
+}
+
+.rails {
+    margin-top: 2px;
+    width: 90%;
+    height: 60%;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+.heading {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-align: left;
+}
+
+.trailer {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 60%;
+}
+
+#Buy_Now {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.base-game {
+    text-align: center;
+    width: 30%;
+    height: 100%;
+    border: 2px black solid;
+    display: inline-block;
+    height: 300px;
+    margin-right: 50px;
+}
+
+.subheading {
+    font-size: 25px;
+    background-color: #eee;
+    text-align: center;
+}
+
+.starter-pack {
+    text-align: center;
+    width: 30%;
+    height: 100%;
+    border: 2px black solid;
+    display: inline-block;
+    height: 300px;
+    margin-right: 50px;
+}
+
+.ultimate-pack {
+    text-align: center;
+    width: 30%;
+    height: 100%;
+    border: 2px black solid;
+    display: inline-block;
+    height: 300px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.price {
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.description {
+    text-align: left;
+    font-size: 20px;
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.lower {
+    margin-top: 70px;
+}
+
+footer {
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    width: 80%;
+    text-align: right;
+    background: linear-gradient(rgb(40, 40, 40), rgb(53, 53, 53));
+}
+
+.f-link {
+    padding: 0 15px;
+}
+
+.f-text{
+    color: white;
+    top: 0;
+}
+
+
+@media (max-width: 600px) {
+    .cards {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
